@@ -51,15 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Heya {} ! My name is {}! 
+Heya {} ! My name is {}♥️! 
 
-I am a cute and efficient bot for management of your groups!
+I am a cute and efficient bot for management of your groups⚡!
 
-For help with bot commands and hit /help
+🍁For help with bot commands and hit /help
 
-If you are lazy you can add me to your group for taking care of it!
+🍁If you are lazy you can add me to your group for taking care of it!
 
-For issues and help related to Amelia Bot you ask it in our official support group:)
+🍁For issues and help related to Amelia Bot you ask it in our official support group:)
 
 """
 
