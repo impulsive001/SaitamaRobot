@@ -191,12 +191,12 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                             text="Support Group",
+                             text="⚠️Support Group⚠️",
                              url=f"https://t.me/{SUPPORT_CHAT}")
                     ],
                      [
                          InlineKeyboardButton(
-                            text="Add Amelia to your group",
+                            text="⚡Add Amelia to your group⚡",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                      
