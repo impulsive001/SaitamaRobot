@@ -51,13 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Heya {} ! my name is {}! 
+Heya {} ! My name is {}! 
 
-I am a efficient and potent group manager bot!
+I am a cute and efficient bot for management of your groups!
 
 For help with bot commands and hit /help
 
-If you are lazy you can add me to your group for taking care of it and management:)
+If you are lazy you can add me to your group for taking care of it!
+
+For issues and help related to Amelia Bot you ask it in our official support group:)
 
 """
 
@@ -200,9 +202,7 @@ def start(update: Update, context: CallbackContext):
                      
                      ]]))
     else:
-        update.effective_message.reply_text(
-            "I'm online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
-            parse_mode=ParseMode.HTML)
+        update.effective_message.reply_text("Heya I am still alive am still alive! Why did you call me?")
 
 
 # for test purposes
