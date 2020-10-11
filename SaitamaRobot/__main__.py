@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Heya {} ! my name is {}! 
 
-I am a efficient and potent group manager bot developed and managed by @I_IMPULSIVE
+I am a efficient and potent group manager bot!
 
 For help with bot commands and hit /help
 
