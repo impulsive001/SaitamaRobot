@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                      
                      ]]))
     else:
-        update.effective_message.reply_text("Heya I am still alive am still alive! Why did you call me?")
+        update.effective_message.reply_text("Heya I am still alive⚡! Why did you call me?")
 
 
 # for test purposes
